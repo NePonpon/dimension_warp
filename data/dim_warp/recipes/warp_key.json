@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "o-o",
+    "-#-",
+    "o-o"
+  ],
+  "key": {
+    "#":{
+      "item":"redstone"
+    },
+    "-":{
+      "item":"iron_ingot"
+    },
+    "o":{
+      "item":"ender_pearl"
+    }
+  },
+  "result": {
+      "item": "minecraft:compass"
+  }
+}

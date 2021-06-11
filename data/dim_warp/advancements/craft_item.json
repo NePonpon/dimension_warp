@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "warp_key":{
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "dim_warp:warp_key"
+      }
+    }
+  },
+  "requirements": [["warp_key"]],
+  "rewards": {
+    "function": "dim_warp:system/craft_item/"
+  }
+}
