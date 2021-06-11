@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "use_key":{
+      "trigger": "item_used_on_block",
+      "conditions": {
+        "item": {
+          "item": "armor_stand",
+          "nbt": "{EntityTag:{Tags:[Warp_Key]}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dim_warp:system/open_gate"
+  }
+}
