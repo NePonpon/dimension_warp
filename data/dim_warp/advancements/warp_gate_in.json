@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "EndGateWay":{
+      "trigger": "enter_block",
+      "conditions": {
+        "block": "end_gateway"
+      }
+    },
+    "GlassPane":{
+      "trigger": "enter_block",
+      "conditions": {
+        "block": "purple_stained_glass_pane"
+      }
+    }
+  },
+  "requirements": [["EndGateWay","GlassPane"]],
+  "rewards": {
+    "function": "dim_warp:system/warp/gate_in"
+  }
+}

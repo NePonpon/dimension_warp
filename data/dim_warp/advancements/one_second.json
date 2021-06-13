@@ -1,0 +1,10 @@
+{
+  "criteria":{
+    "one_second":{
+      "trigger": "location"
+    }
+  },
+  "rewards":{
+    "function":"dim_warp:system/one_second"
+  }
+}
