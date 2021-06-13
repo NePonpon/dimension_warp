@@ -11,8 +11,6 @@ forceload add ~ ~
 summon armor_stand ~ ~ ~ {Tags:["Warp_Point","StartPoint","NewPoint"],NoGravity:true}
 tp @e[tag=StartPoint] ~ ~ ~ ~ ~
 
-execute as @e[tag=StartPoint] run tellraw @a {"entity":"@s","nbt":"Rotation"}
-
 # ここからは分岐
 execute positioned ~ ~-1 ~ run function #dim_warp:add_point
 
@@ -21,8 +19,6 @@ execute store result score @e[tag=NewPoint] Dimension_Warp run scoreboard player
 
 # ワープゲートのエンティティ位置調整
 execute as @e[tag=StartPoint] at @s run tp ^-0.5 ^1.5 ^
-
-execute as @e[tag=StartPoint] run tellraw @a {"entity":"@s","nbt":"Rotation"}
 
 # いろんなものを削除
 tag @e[tag=StartPoint] remove StartPoint

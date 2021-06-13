@@ -19,6 +19,3 @@ execute as @e[tag=StartPoint] at @s run fill ^-1 ^ ^ ^ ^2 ^ purple_stained_glass
 # summon marker ^-0.5 ^1.5 ^ {Tags:["Warp_Point","NewPoint"]}
 execute align xz positioned ~0.5 ~ ~0.5 run summon armor_stand ^-0.5 ^1.5 ^ {Tags:["Warp_Point","NewPoint","EndPoint"],NoGravity:true}
 execute as @e[tag=EndPoint,limit=1,sort=nearest] at @s rotated as @e[tag=Gate_Block_Check] run tp @s ~ ~ ~ ~180 ~
-
-# 製作用
-# forceload remove ~ ~
