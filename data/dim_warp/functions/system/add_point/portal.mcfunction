@@ -12,3 +12,14 @@ setblock ~ ~1 ~ redstone_block
 
 # cloneコマンドで形をつくる
 
+clone ~ ~-1 ~ ~ ~-1 ~ ^1 ^-1 ^ replace force
+clone ~ ~-1 ~ ~ ~-1 ~ ^1 ^ ^ replace force
+clone ~ ~-1 ~ ~ ~-1 ~ ^1 ^1 ^ replace force
+clone ~ ~-1 ~ ~ ~-1 ~ ^1 ^2 ^ replace force
+clone ~ ~-1 ~ ~ ~-1 ~ ^1 ^3 ^ replace force
+
+clone ~ ~-1 ~ ~ ~-1 ~ ^ ^3 ^ replace force
+clone ~ ~-1 ~ ~ ~-1 ~ ^-1 ^3 ^ replace force
+
+clone ^1 ^-1 ^ ^1 ^3 ^ ^-2 ^-1 ^ replace force
+clone ^ ^3 ^ ^-1 ^3 ^ ^-1 ^-1 ^ replace force
