@@ -23,3 +23,40 @@ clone ~ ~-1 ~ ~ ~-1 ~ ^-1 ^3 ^ replace force
 
 clone ^1 ^-1 ^ ^1 ^3 ^ ^-2 ^-1 ^ replace force
 clone ^ ^3 ^ ^-1 ^3 ^ ^-1 ^-1 ^ replace force
+
+# ついでに土台も作る
+clone ~ ~-1 ~ ~ ~-1 ~ ^2 ^-2 ^02 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^2 ^-2 ^01 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^2 ^-2 ^00 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^2 ^-2 ^-1 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^2 ^-2 ^-2 replace normal
+
+clone ~ ~-1 ~ ~ ~-1 ~ ^1 ^-2 ^02 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^1 ^-2 ^01 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^1 ^-2 ^00 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^1 ^-2 ^-1 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^1 ^-2 ^-2 replace normal
+
+clone ~ ~-1 ~ ~ ~-1 ~ ^0 ^-2 ^02 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^0 ^-2 ^01 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^0 ^-2 ^00 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^0 ^-2 ^-1 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^0 ^-2 ^-2 replace normal
+
+clone ~ ~-1 ~ ~ ~-1 ~ ^-1 ^-2 ^02 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-1 ^-2 ^01 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-1 ^-2 ^00 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-1 ^-2 ^-1 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-1 ^-2 ^-2 replace normal
+
+clone ~ ~-1 ~ ~ ~-1 ~ ^-2 ^-2 ^02 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-2 ^-2 ^01 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-2 ^-2 ^00 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-2 ^-2 ^-1 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-2 ^-2 ^-2 replace normal
+
+clone ~ ~-1 ~ ~ ~-1 ~ ^-3 ^-2 ^02 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-3 ^-2 ^01 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-3 ^-2 ^00 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-3 ^-2 ^-1 replace normal
+clone ~ ~-1 ~ ~ ~-1 ~ ^-3 ^-2 ^-2 replace normal

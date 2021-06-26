@@ -15,7 +15,7 @@ tp @e[tag=StartPoint] ~ ~ ~ ~ ~
 execute positioned ~ ~-1 ~ run function #dim_warp:add_point
 
 # GateID付与
-execute store result score @e[tag=NewPoint] Dimension_Warp run scoreboard players add $GateID Dimension_Warp 1
+execute if entity @e[tag=NewPoint] store result score @e[tag=NewPoint] Dimension_Warp run scoreboard players add $GateID Dimension_Warp 1
 
 # ワープゲートのエンティティ位置調整
 execute as @e[tag=StartPoint] at @s run tp ^-0.5 ^1.5 ^
