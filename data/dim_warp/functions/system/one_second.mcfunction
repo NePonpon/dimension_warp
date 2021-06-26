@@ -2,6 +2,9 @@
 
 scoreboard players reset @s Dimension_Warp
 
+## 破壊検知
+execute as @e[tag=Warp_Point,distance=..8] at @s run function dim_warp:system/check_type/break/
+
 # 演出
 execute as @e[tag=Warp_Point,distance=..8] at @s anchored feet run particle portal ^ ^ ^ 0.25 0.5 0.25 1 10 normal
 execute if entity @e[tag=Warp_Point,distance=..8] run schedule function dim_warp:system/gate_sounds 13s append
